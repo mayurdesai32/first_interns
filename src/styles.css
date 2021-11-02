@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  /* feather icon */
+  margin: 0;
+  padding: 0;
+
+  font-family: "Inter", sans-serif;
+}
+
+.homepage {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  /* border: 1px solid red; */
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* .item :hover{
+  
+} */
+
+.product_image img {
+  width: 100%;
+
+  object-fit: cover;
+  /* height:  */
+}
+
+.product_detail {
+  padding: 20px;
+}
+
+.product_title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.product_desc {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.product_price {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.product_price span {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.product_bottom {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.product_addToCard {
+  /* display: none; */
+  /* visibility: hidden; */
+  background-color: rgb(54, 143, 216);
+  padding: 3px 8px;
+
+  padding: 3px 8px;
+}
